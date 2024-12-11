@@ -1,6 +1,6 @@
 {
   "name": "@fish-coder/core",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "type": "module",
   "main": "dist/index.js",
@@ -15,5 +15,4 @@
   "publishConfig": {
     "access": "public"
   }
-
 }
