@@ -1,0 +1,27 @@
+{
+  "name": "@fish-coder/cli",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "num-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "add": "node ./dist/index.js add 1 2",
+    "minus": "node ./dist/index.js minus 3 2",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fish-coder/core": "workspace:*",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
